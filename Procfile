@@ -1,0 +1,1 @@
+java -Dserver.port=51784 $JAVA_OPTS -jar target/demoController-1.0-SNAPSHOT.jar
