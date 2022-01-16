@@ -8,6 +8,7 @@ public class DemoController {
 
     @GetMapping("welcome")
     public String welcomeFirstTimer(){
-        return "Welcome to my rest controller";
+        return "Welcome to my rest controller." +
+                "This is how it is done";
     }
 }
